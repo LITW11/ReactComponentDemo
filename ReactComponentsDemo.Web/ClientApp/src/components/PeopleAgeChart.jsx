@@ -60,7 +60,7 @@ const PeopleAgeChart = ({ people }) => {
             </div>
             <div className="row p-5">
                 <div className='col-md-6 offset-md-3'>
-                    <h4>Slice Count: {sliceCount}</h4>
+                    <h4>Slice Count: {sliceCount}!!!</h4>
                     <Slider min={5} max={15} dots={true} value={sliceCount} onChange={val => setSliceCount(val)}  />
                 </div>
             </div>
