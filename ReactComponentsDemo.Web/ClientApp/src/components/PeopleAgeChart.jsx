@@ -47,7 +47,7 @@ const PeopleAgeChart = ({ people }) => {
     
     const [bar, setBar] = useState('foo');
 
-    const [foo, setFoo] = useState('');
+    const [foo, setTheFoo] = useState('');
 
     useEffect(() => {
         setChartData(getChartData(people, sliceCount));
